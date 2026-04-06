@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom in html</title>
+</head>
+<body>
+    <!-- the document object model is a programming inteface that an html  -->
+     <h2>check your age to cast the vote</h2>
+     <form action="">
+        <input type="number" placeholder="enter your age"name="age" id ="age"/>
+        <input type="submit" value="submit!" onclick="result()"/>
+     </form>
+     <input type="text" placeholder="enter your name" id="inputdata"/>
+     <h2 id="text"></h2>
+     <button ondblclick="changecolor()">click on me!</button>
+    <script>
+        // 
+        function changecolor(){
+            let inputvalue=document.getElementarybyId("inputdata").value;
+            document.getElementarybyId('text').textcontent=inputvalue;
+            
+        }
+    </script>
+    
+</body>
+</html>

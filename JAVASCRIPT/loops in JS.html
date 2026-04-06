@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loops in JS</title>
+</head>
+<body>
+    <script>
+        //LOOPS: loops are control flow statements that allow a block of code to be executed repeatedly based on a condition.
+        // for loop
+        let studentList=["aditya","aman","ajay"];
+        for(let i=0;i<studentList.length;i++){
+            console.log(studentList[i]);
+        }
+        // While loop
+        let i=0;
+        while(i<studentList.length){
+            console.log(studentList[i]);
+            i++;
+        }
+        // for..of loop:
+        for(let x of studentList){
+            console.log(x);
+        }
+
+        // for...in loop:The for...in loop in JavaScript is a control flow statement used to iterate over the enumerable properties (keys) of an object, including properties inherited from its prototype chain.
+        // see example in object
+    </script>
+</body>
+</html>

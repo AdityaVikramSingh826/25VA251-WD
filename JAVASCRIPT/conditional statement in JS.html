@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONDITIONAL STATEMENTS IN JS</title>
+</head>
+<body>
+    <script>
+        // CONDITIONAL STATEMENT:
+
+        // if....
+        let age=20;
+        if(age<18){
+            console.log("not eligible for vote casting")
+        }
+        console.log("eligible for vote casting");
+
+        //if...else
+        let myAge=24;
+        if (myAge>18){
+            console.log("you are eligible");
+        }
+        else{
+            console.log("wait for next time");
+        }
+
+        // switch statement
+        let grade='C';
+        switch(grade){
+            case 'A':result="first division";
+            break;
+            case 'B':result="second division";
+            break;
+            case 'C':result="third division";
+            break;
+            default:result="fail";
+        }
+
+        // else if...
+        let marks=30;
+        if(marks<=33){
+            console.log("Grade Third");
+        }
+        else if(marks>33 && marks<60){
+            console.log("Grade Second");
+        }
+        else{
+            console.log("Grade First");
+        }
+    </script>
+</body>
+</html>
